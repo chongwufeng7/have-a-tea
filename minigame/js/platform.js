@@ -10,8 +10,11 @@ class Platform {
     // Only an explicit release build may access production keys.
     this.channel = version === 'release' ? 'production' :
       ['develop', 'trial'].includes(version) ? 'test' : 'unknown';
-    this.testMode = this.channel === 'test' && query.mode !== 'production';
-    this.key = 'dimsum.' + this.channel + (query.mode === 'production' && this.channel === 'test' ? '.preview' : '') + '.progress.v1';
+    // Reviewers and experience users run the trial build: debug controls belong to develop only.
+    this.testMode = version === 'develop' && query.mode !== 'production';
+    const scope = version === 'trial' ? 'test.trial' :
+      this.channel === 'test' && query.mode === 'production' ? 'test.preview' : this.channel;
+    this.key = 'dimsum.' + scope + '.progress.v1';
     this.query = query;
     this.saveError = false;
   }
