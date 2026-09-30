@@ -4,6 +4,7 @@ node_modules/
 .cache/
 artifacts/
 Implement-from-Figma-main/
+审核配图/
 **/project.private.config.json
 .env
 .env.*

@@ -4,6 +4,8 @@ const allowed=new Set(['AGENTS.md','项目入口.md','package.json','package-loc
 // ITER-035: user-confirmed project helpers and Codex-generated source artwork.
 allowed.add('Implement-from-Figma-main');
 allowed.add('UI');
+// User-confirmed local images for minigame filing; keep in place but exclude from Git.
+allowed.add('审核配图');
 for(const f of fs.readdirSync(root))if(!allowed.has(f))errors.push(`未登记的根目录项: ${f}`);
 const required=['AGENTS.md','项目入口.md','文档/00-目录导航.md','文档/01-开发与迭代指南/01-从零开发指南.md','文档/01-开发与迭代指南/02-项目迭代指南.md','文档/02-当前项目/00-项目状态.md','文档/03-迭代记录/ITER-001.md'];
 for(const f of required)if(!fs.existsSync(path.join(root,f)))errors.push(`缺少: ${f}`);
