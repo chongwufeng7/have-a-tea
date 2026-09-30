@@ -13,3 +13,9 @@
 已确认 GitHub 仓库名及本账号写入权限；工程入口仍为 `minigame/project.config.json`。运行素材含用户指定的 ACE Music 曲目，来源、授权现状与未审计事项记录在 `assets/audio/charming-guangzhou/source.json`；Figma 素材来源在各 `assets/*/sources.json`。本轮不会宣称第三方权利已获全面清除。
 
 上传前需检查暂存文件、运行 `npm test` 与 `npm run check:docs`；上传后以远端提交和文件树复核为准。微信模拟器/真机的遗留项仍以 ITER-044 为准。
+
+## 实际交付与复核
+
+`npm test` 50/50通过，`npm run check:docs` 检查79份Markdown、0错误。首次提交 `ea2cfb3429ade412e970da0b944654158e0e6289` 已推送至 `origin/main`；`git ls-remote` 返回同一提交，GitHub 远端可以读取 `minigame/project.config.json`。共提交220个文件，暂存核对未包含 `artifacts/`、`.cache/`、`Implement-from-Figma-main/` 或私有配置；最大文件约10.9MB，全部低于GitHub单文件限制。项目运行版本仍为 minigame-v0.13，未做微信发布或云部署。
+
+本段为首个提交完成后的文档补记；其最终提交号以后续Git记录为准。公开仓库地址：`https://github.com/chongwufeng7/have-a-tea`。
