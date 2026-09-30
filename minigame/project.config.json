@@ -1,0 +1,14 @@
+{
+  "description": "中式小吃叠牌消除 · 微信小游戏",
+  "projectname": "dimsum-game",
+  "appid": "wxe7a2e6370df97a67",
+  "compileType": "game",
+  "miniprogramRoot": "./",
+  "libVersion": "latest",
+  "setting": { "es6": true, "minified": true, "urlCheck": true, "enhance": true },
+  "condition": { "game": { "list": [
+    { "name": "第20关测试", "query": "level=20" },
+    { "name": "正式流程预览", "query": "mode=production" }
+  ] } }
+}
+

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "background-old",
+    "sourceNode": "44:758",
+    "file": "background-old.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "background",
+    "sourceNode": "44:759",
+    "file": "background.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "restart-base",
+    "sourceNode": "44:761",
+    "file": "restart-base.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "icon-sheet",
+    "sourceNode": "44:761",
+    "file": "icon-sheet.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "rules-base",
+    "sourceNode": "44:761",
+    "file": "rules-base.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "levels-base",
+    "sourceNode": "44:761",
+    "file": "levels-base.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "level-plaque",
+    "sourceNode": "44:761",
+    "file": "level-plaque.svg",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "bulb",
+    "sourceNode": "44:978",
+    "file": "bulb.svg",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "wood-tray",
+    "sourceNode": "44:978",
+    "file": "wood-tray.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "tool-base",
+    "sourceNode": "44:1020",
+    "file": "tool-base.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "tool-badge",
+    "sourceNode": "44:1020",
+    "file": "tool-badge.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "tool-icons",
+    "sourceNode": "44:1020",
+    "file": "tool-icons.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "shuffle-base",
+    "sourceNode": "44:1020",
+    "file": "shuffle-base.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "food-sheet",
+    "sourceNode": "4:34",
+    "file": "food-sheet.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "name": "food-extra",
+    "sourceNode": "4:34",
+    "file": "food-extra.png",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-27",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  }
+]

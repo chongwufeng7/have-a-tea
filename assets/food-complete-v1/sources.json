@@ -1,0 +1,11 @@
+{
+  "date":"2026-09-29",
+  "fileKey":"RW5WV3CXtgDbdaWfiWb7xN",
+  "pageId":"18:175",
+  "boardId":"96:39",
+  "existingArtworkNodes":["18:186","18:198","18:210","18:192","18:216","18:204","53:2302","53:2335","53:2340"],
+  "generated":{"egg.png":"96:83","noodles.png":"96:87","soymilk.png":"96:91"},
+  "source":"User project artwork reused; three new transparent illustrations generated with built-in image_gen using food-sheet style reference.",
+  "license":"No external stock artwork used; commercial rights and exclusivity not independently audited.",
+  "runtimeIntegrated":false
+}

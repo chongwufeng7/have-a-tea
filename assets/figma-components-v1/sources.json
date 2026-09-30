@@ -1,0 +1,41 @@
+{
+  "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+  "nodes": [
+    "102:1432",
+    "102:1441",
+    "102:1451",
+    "116:1423",
+    "116:1433",
+    "116:1438"
+  ],
+  "assets": {
+    "undo-on": "46775cc6-b753-4513-97c0-ca356a6c4a04",
+    "remove-on": "fcc76965-3dd2-4387-81a9-74cb0bca747f",
+    "shuffle-off": "1a0ab947-aae5-48f0-82f3-cad5922e2451",
+    "egg": "4f05149d-cba9-4c47-8499-0d47c07a74da",
+    "noodles": "8fa6e1eb-3b2a-4438-aebb-3e2e5d5190cb",
+    "soymilk": "9b544810-920f-49e1-87b4-903f3d9cbfbc"
+  },
+  "source": "User Figma components; existing project imagegen artwork. Full source retained; runtime scaled only.",
+  "license": "No new third-party artwork; no independent exclusivity claim.",
+  "reusedAssets": [
+    {
+      "name": "shuffle-base",
+      "originalSha256": "73ccd2a83a63db9a9a106834ea14420f70430843dd366a928417d40bf0192ad1",
+      "matchesExistingSource": true,
+      "runtime": "minigame/assets/shuffle-base.png"
+    },
+    {
+      "name": "tool-base",
+      "originalSha256": "7d87ef5d0f66abcf37a77a572fb0be5cd57332911f6763705d61a01fa55bbced",
+      "matchesExistingSource": true,
+      "runtime": "minigame/assets/tool-base.png"
+    },
+    {
+      "name": "tool-badge",
+      "originalSha256": "a4747a0221fb196d57d3c09182e47b172736907f2b469204d77608c371defaec",
+      "matchesExistingSource": true,
+      "runtime": "minigame/assets/tool-badge.png"
+    }
+  ]
+}

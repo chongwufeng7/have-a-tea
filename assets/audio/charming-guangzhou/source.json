@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-09-29T16:03:43.228Z",
+  "title": "Charming Guangzhou Scene",
+  "workId": "4jQWQy7m",
+  "model": "acestep-v15-xl-turbo",
+  "page": "https://acemusic.ai/playground/create",
+  "durationSeconds": 27,
+  "original": "original.aac",
+  "actualContainer": "M4A/MP4, AAC stereo 48000Hz 128kbps",
+  "bytes": 438548,
+  "originalSha256": "437ecb9029cb82d386b75cac7829705f080f056c1ce93b76dc845a8178980863",
+  "runtime": "minigame/assets/audio/charming-guangzhou.m4a",
+  "runtimeSha256": "437ecb9029cb82d386b75cac7829705f080f056c1ce93b76dc845a8178980863",
+  "processing": "Byte-for-byte copy; correct file extension only, no remix or recompression",
+  "authorization": "User explicitly selected Charming Guangzhou Scene and instructed adding to game; source size announced before full download.",
+  "rights": "User-owned ACE Music generated work. Prior 2026-09-29 page evidence recorded Terms 2026-01-30 section 5.1 allowing commercial outputs; current independent web recheck unavailable. No claim of exclusive copyright or third-party clearance.",
+  "priorEvidence": "artifacts/audio-online-v0.1/generated-library.txt; online-page.json; request.json",
+  "notPublished": true
+}

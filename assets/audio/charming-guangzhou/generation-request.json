@@ -1,0 +1,9 @@
+{
+  "prompt": "Original Cantonese Guangdong chamber instrumental, cheerful Guangzhou morning dim sum teahouse. Gaohu leads a new nimble pentatonic melody with graceful slides and ornaments; acoustic yangqin answers in sparkling short phrases; qinqin lute adds light bouncy plucked rhythm. Small intimate ensemble, realistic traditional instruments, natural phrasing, breathing gaps, warm playful mood. 108 BPM, 2/4, 27 seconds. No vocals, no drums or synth. Gentle high frequencies, space for game sound effects. Maintain pulse, no fade-out.",
+  "negative": "vocals, singing, speech, electronic drums, synthesizer beeps, heavy percussion, suona, orchestral epic, Japanese koto, meditation, copied melody",
+  "duration": 27,
+  "bpm": 108,
+  "meter": 2,
+  "model": "ACE-Step V1.5 XL Turbo",
+  "referenceAudio": null
+}

@@ -1,0 +1,13 @@
+artifacts/*-profile/
+artifacts/browser-profile/
+node_modules/
+.cache/
+artifacts/
+Implement-from-Figma-main/
+**/project.private.config.json
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key

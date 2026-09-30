@@ -1,0 +1,84 @@
+[
+  {
+    "file": "background-old.png",
+    "node": "86:1410",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "background.png",
+    "node": "86:1411",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "rules-base.png",
+    "node": "86:1415",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "icon-sheet.png",
+    "node": "86:1415",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "level-plaque.svg",
+    "node": "86:1415",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "wood-tray.png",
+    "node": "86:1552",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "bulb.svg",
+    "node": "86:1552",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "tool-base.png",
+    "node": "86:1557",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "tool-badge.png",
+    "node": "86:1557",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "shuffle-base.png",
+    "node": "86:1557",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "food-sheet.png",
+    "node": "86:1507",
+    "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+    "retrieved": "2026-09-29",
+    "license": "User-provided Figma assets; commercial rights not audited"
+  },
+  {
+    "file": "food-extra.png",
+    "source": "assets/figma-main-v1/food-extra.png",
+    "license": "Unchanged user-provided Figma snack component sheet"
+  }
+]

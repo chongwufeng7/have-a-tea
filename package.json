@@ -1,0 +1,1 @@
+{"name":"snack-tile-prototype","private":true,"scripts":{"start":"node tools/server.cjs","test":"node --test tests/*.cjs","check:docs":"node tools/check-docs.cjs","check:code":"node tools/check-code.cjs"}}
