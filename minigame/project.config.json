@@ -5,10 +5,57 @@
   "compileType": "game",
   "miniprogramRoot": "./",
   "libVersion": "latest",
-  "setting": { "es6": true, "minified": true, "urlCheck": true, "enhance": true },
-  "condition": { "game": { "list": [
-    { "name": "第20关测试", "query": "level=20" },
-    { "name": "正式流程预览", "query": "mode=production" }
-  ] } }
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": true,
+    "enhance": true,
+    "postcss": false,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "condition": {
+    "game": {
+      "list": [
+        {
+          "name": "第20关测试",
+          "query": "level=20"
+        },
+        {
+          "name": "正式流程预览",
+          "query": "mode=production"
+        }
+      ]
+    }
+  },
+  "simulatorPluginLibVersion": {},
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "suffix",
+        "value": ".map"
+      },
+      {
+        "type": "file",
+        "value": "code.fortify.config.json"
+      }
+    ],
+    "include": []
+  },
+  "isGameTourist": false,
+  "editorSetting": {}
 }
-
