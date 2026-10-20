@@ -1,0 +1,85 @@
+{
+  "generator": "built-in imagegen",
+  "items": [
+    {
+      "id": 11,
+      "name": "陈皮牛肉球",
+      "generationId": "exec-a42ebc45-5d53-4be5-b9e1-629cfd7d335a",
+      "source": "beef-balls.png",
+      "runtime": "minigame/assets/v103/food-beef-balls.png",
+      "sourceSha256": "0e2568aff44968bf865c5da609e57c30914b8f38352969552aefe551a098b6ec"
+    },
+    {
+      "id": 12,
+      "name": "猪猪流沙包",
+      "generationId": "exec-e7e86213-88bf-467c-8828-77ca34ee4839",
+      "source": "piggy-custard-bun.png",
+      "runtime": "minigame/assets/v103/food-piggy-custard-bun.png",
+      "sourceSha256": "ba2efbe522f02e0fa0e5971c91fd15fe7f9aeb3c7c49d8bbe6f2698995e2cb00"
+    },
+    {
+      "id": 13,
+      "name": "腐皮卷",
+      "generationId": "exec-dffa1464-6d8a-4b79-b165-622be8d643c4",
+      "source": "tofu-skin-roll.png",
+      "runtime": "minigame/assets/v103/food-tofu-skin-roll.png",
+      "sourceSha256": "b424e44cee2047306cd3dbbd309866e946b54328d6a4b173e30cbc8be543b633"
+    },
+    {
+      "id": 14,
+      "name": "煎饺",
+      "generationId": "exec-d4c85d14-2610-4f29-af2c-588e1a8dfc69",
+      "source": "pan-fried-dumplings.png",
+      "runtime": "minigame/assets/v103/food-pan-fried-dumplings.png",
+      "sourceSha256": "1747c9cf87121b4d939977899c0f7fb8411e232ad187da1b69b87f6e75d6f53d"
+    },
+    {
+      "id": 15,
+      "name": "红米肠",
+      "generationId": "exec-55528c4e-b82b-444d-98fb-5079e09c40f3",
+      "source": "red-rice-rolls.png",
+      "runtime": "minigame/assets/v103/food-red-rice-rolls.png",
+      "sourceSha256": "8f8076fba551fc93db211d1ddd4afbe3c2c59adfc5f701718ef482ff6ab43df7"
+    },
+    {
+      "id": 16,
+      "name": "萝卜糕",
+      "generationId": "exec-8b8a9f97-7a68-4106-8462-40579185e19b",
+      "source": "turnip-cake.png",
+      "runtime": "minigame/assets/v103/food-turnip-cake.png",
+      "sourceSha256": "758bc74afa68b2cec50a50ec90189b58b1015b0dcd4f4ad9a5b16c2fe3a774af"
+    },
+    {
+      "id": 17,
+      "name": "马拉糕",
+      "generationId": "exec-240bb106-2817-4277-8b77-aa4036c2e5dc",
+      "source": "malay-sponge-cake.png",
+      "runtime": "minigame/assets/v103/food-malay-sponge-cake.png",
+      "sourceSha256": "9352f38e94a3fd2989099af882be7c4f863757aed49b83e9aa7eec03b76e4af8"
+    },
+    {
+      "id": 18,
+      "name": "咸水角",
+      "generationId": "exec-432d3e65-7471-409c-91f6-ab0d803cf7b0",
+      "source": "ham-sui-gok.png",
+      "runtime": "minigame/assets/v103/food-ham-sui-gok.png",
+      "sourceSha256": "6fa3dfd655d5ad1e9bd770accfa9cbbc5fec7354cca2e3dade95a681ebc3f980"
+    },
+    {
+      "id": 19,
+      "name": "炸春卷",
+      "generationId": "exec-f5c8aece-6fff-4440-ae0a-d11137829ae0",
+      "source": "fried-spring-rolls.png",
+      "runtime": "minigame/assets/v103/food-fried-spring-rolls.png",
+      "sourceSha256": "26c295953e60c886abf0f90639e3a0cdad6ceeb8e1dcbad61d2edc3e2a6d344d"
+    },
+    {
+      "id": 20,
+      "name": "双皮奶",
+      "generationId": "exec-737b3809-1569-45a7-a37f-5c7bc418d0ff",
+      "source": "double-skin-milk.png",
+      "runtime": "minigame/assets/v103/food-double-skin-milk.png",
+      "sourceSha256": "3666ae7e8cadb30449c3d57ffc7a1749ad20125f5250d0ff167ac08e6a35577e"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "RW5WV3CXtgDbdaWfiWb7xN",
+  "method": "Figma MCP exportAsync PNG, existing user component instances, unmodified bytes",
+  "rights": "用户提供并要求复用的项目Figma组件；沿用项目原素材来源与授权记录，非新增第三方素材授权证明",
+  "items": [
+    {
+      "file": "tool-undo-off.png",
+      "node": "205:173",
+      "logicalSize": [
+        84,
+        78
+      ],
+      "exportScale": 2,
+      "sha256": "64a66a113912997d93062938c6b69995894ce9391c002da54c7a3b3b782b2358"
+    },
+    {
+      "file": "tool-shuffle-on.png",
+      "node": "205:174",
+      "logicalSize": [
+        84,
+        78
+      ],
+      "exportScale": 2,
+      "sha256": "90c45d48a74cc8c56c774ee30b314389e7097fb0ea999f54d11a2760e67a5089"
+    },
+    {
+      "file": "tool-shuffle-off.png",
+      "node": "205:177",
+      "logicalSize": [
+        84,
+        78
+      ],
+      "exportScale": 2,
+      "sha256": "8ca542d3001faaf72ff915288e50bb8ed1a576c36d587f5ea575916ab91a30c7"
+    },
+    {
+      "file": "tool-undo-on.png",
+      "node": "205:179",
+      "logicalSize": [
+        84,
+        78
+      ],
+      "exportScale": 2,
+      "sha256": "83ca8396a24ec26c30408788a9d877c4ee2d5d913d429679392b5da93bf25d10"
+    }
+  ]
+}

@@ -5,14 +5,16 @@ const { Renderer } = require('./js/renderer');
 
 const canvas = wx.createCanvas();
 const platform = new Platform(wx);
+platform.enableSharing();
 const controller = new Controller(platform);
 const renderer = new Renderer(canvas, wx, platform);
-let active = true, touch = null, loading = true, animationTimer=null, hasHidden=false;
+let active = true, touch = null, loading = true, tickTimer=null, hasHidden=false;
 const draw = () => {
-  if(animationTimer!==null){clearTimeout(animationTimer);animationTimer=null;}
+  if(tickTimer!==null){clearTimeout(tickTimer);tickTimer=null;}
   if(!active)return;
+  controller.tick();
   renderer.render(controller);
-  if(renderer.ready&&renderer.steam.active)animationTimer=setTimeout(draw,33);
+  if(renderer.ready&&(renderer.animating||controller.timerRunning))tickTimer=setTimeout(draw,renderer.animating?16:200);
 };
 draw();
 function load() {
@@ -37,6 +39,6 @@ wx.onTouchEnd(e => {
   draw();
 });
 wx.onTouchCancel(()=>{touch=null;});
-wx.onHide(()=>{hasHidden=true;active=false;touch=null;if(animationTimer!==null){clearTimeout(animationTimer);animationTimer=null;}renderer.steam.stop();controller.music.hide();controller.persist();});
-wx.onShow(()=>{active=true;touch=null;if(hasHidden){controller.offerResume();hasHidden=false;}controller.music.show();renderer.resize();draw();});
+wx.onHide(()=>{controller.hide();hasHidden=true;active=false;touch=null;if(tickTimer!==null){clearTimeout(tickTimer);tickTimer=null;}renderer.feedback.cancel();controller.music.hide();controller.sound.hide();});
+wx.onShow(()=>{active=true;touch=null;if(hasHidden){controller.show();hasHidden=false;}controller.music.show();controller.sound.show();renderer.resize();draw();});
 wx.onWindowResize(()=>{touch=null;renderer.resize();draw();});

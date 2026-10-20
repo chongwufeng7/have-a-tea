@@ -18,6 +18,13 @@ class Platform {
     this.query = query;
     this.saveError = false;
   }
+  enableSharing() {
+    // Menu sharing is initiated by the player; it never grants game rewards.
+    if (typeof this.api.showShareMenu !== 'function') return;
+    try {
+      this.api.showShareMenu({ menus: ['shareAppMessage', 'shareTimeline'], fail: () => {} });
+    } catch (_) { /* Unsupported clients must still be able to play. */ }
+  }
   read() {
     if (this.channel === 'unknown') return { level: 1, completed: [] };
     try {

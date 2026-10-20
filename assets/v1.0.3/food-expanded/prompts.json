@@ -1,0 +1,57 @@
+{
+  "generator": "built-in imagegen",
+  "styleReference": "../food-approved-atlas.png",
+  "date": "2026-10-18",
+  "foods": [
+    {
+      "file": "beef-balls",
+      "name": "陈皮牛肉球",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three plump round steamed beef balls with a light natural taupe-brown cooked minced beef texture, tiny green coriander flecks and subtle orange dried tangerine peel flecks, resting together on a small light golden wrinkled tofu-skin bed in a white porcelain saucer with thin blue rim. Clear spherical meatballs, not meat cubes or deep fried balls."
+    },
+    {
+      "file": "piggy-custard-bun",
+      "name": "猪猪流沙包",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: One adorable edible steamed piggy-shaped custard bun: round smooth soft ivory bun, small pink triangular ears, pink oval snout with two tiny nostrils, two sesame-black dot eyes; one little opening at its side reveals glossy golden salted-egg custard gently flowing onto its small white saucer. Looks like a real dim sum piggy bun, NOT a live pig, no body or limbs, no fur, no meat. Keep front pig face intact, cute and easy to identify."
+    },
+    {
+      "file": "tofu-skin-roll",
+      "name": "腐皮卷",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three Cantonese steamed stuffed bean-curd skin rolls (fu pei gyun), plump short rectangular rolls with delicate wrinkled thin tofu-skin wrappers, soft light honey tan, shiny light oyster sauce, on a small white porcelain plate with blue rim. One roll's open end shows pork, mushroom and shrimp filling. Supple layered sheets rather than crisp fried tubes. Distinct from golden deep-fried spring rolls. No lettuce garnish."
+    },
+    {
+      "file": "pan-fried-dumplings",
+      "name": "煎饺",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three pan-fried crescent-shaped Chinese jiaozi dumplings on a small white porcelain blue-rim plate. Opaque ivory wheat dough, neat pleated curved edge, clearly visible golden-brown seared bottoms turned slightly toward viewer, a little green chive visible at one cut edge. Not translucent shrimp har gow and not soup buns. A compact triangular arrangement with appetizing toasted patches."
+    },
+    {
+      "file": "red-rice-rolls",
+      "name": "红米肠",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: A small white porcelain blue-rim oval plate of Cantonese red rice noodle rolls (hong mi chang), three short chunky crimson-red rice-skin rolls with moist smooth translucent reddish outside. Show cut ends clearly: red rice wrapper surrounds a golden crunchy lacy fritter layer and pale white-pink shrimp in center. Bright ruby-red rice skin is the dominant visual identity, not sushi/nori and not a white cheung-fun roll. A little glossy soy sauce beneath, no garnish clutter."
+    },
+    {
+      "file": "turnip-cake",
+      "name": "萝卜糕",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three thick rectangular slices of Cantonese pan-fried turnip cake (lo bak go) on a small white porcelain plate with thin blue rim, pale ivory radish-rice cake inside with tiny light sausage and dried shrimp flecks, broad top surfaces seared mottled golden brown. One slice tilts to show creamy ivory vertical side and substantial thickness. Clear squared slabs, not bread or tofu. Warm toasted color but white cake remains visible."
+    },
+    {
+      "file": "malay-sponge-cake",
+      "name": "马拉糕",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Two chunky wedge-shaped slices of Cantonese steamed brown-sugar sponge cake, ma lai go, on a small white porcelain plate with thin blue rim. Warm caramel tan golden-brown cake, domed soft slightly darker top, very airy fine open sponge pores on the large cut faces, moist tender crumb. No white frosting, no cream filling, no nuts, no chocolate. Clearly a tall fluffy steam cake, not pan-fried radish slabs."
+    },
+    {
+      "file": "ham-sui-gok",
+      "name": "咸水角",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three Cantonese ham sui gok fried glutinous rice dumplings, plump small rugby/olive shapes with tapered ends, golden honey crisp lightly blistered outside. One cut-open dumpling reveals a thick chewy ivory glutinous shell and compact dark savory pork-mushroom filling. Compact portion on a white porcelain saucer with fine blue rim. No pleats, no gyoza crescent, no long spring-roll tubes, no sesame seed coating."
+    },
+    {
+      "file": "fried-spring-rolls",
+      "name": "炸春卷",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: Three slender cylindrical Cantonese deep-fried spring rolls on a white porcelain blue-rim saucer, crisp thin smooth golden-brown wrappers, folded closed ends and delicate flaky bubbles. One spring roll cut on a diagonal reveals cabbage shreds, carrot and savory filling. Distinct long straight cigar silhouettes, not round ham sui gok and not soft saucy bean-curd rolls. No dipping bowls."
+    },
+    {
+      "file": "double-skin-milk",
+      "name": "双皮奶",
+      "prompt": "Create ONE isolated Guangzhou dim sum game icon, transparent background with genuine alpha. Use supplied image ONLY as style reference, NOT edit target; do NOT draw a sheet. Match its polished appetizing hand-painted 2D food illustration, fine warm brown contour, soft gouache shading, crisp silhouette and subtle porcelain details. Three-quarter view, centered, portion filling 84% canvas width with clean margin, readable at 45px. No text, no labels, no bamboo steamer, no table/background, no extra unrelated props. Subject: One small traditional blue-and-white porcelain dessert bowl filled with pure silky white double-skin milk pudding, very smooth softly set milk surface with a delicate thin wrinkled milk skin near the rim and subtle pearly highlights. A small white porcelain spoon rests across the near rim, lifting a neat tender spoonful to show soft pudding texture. No rice grains, no brown century eggs, no scallions, no red beans, no fruit or colorful garnish. White milk pudding must look distinct from the game's savory congee bowl."
+    }
+  ]
+}

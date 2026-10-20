@@ -3,7 +3,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { lockReviewControls } = require('../tools/build-review.cjs');
+const { lockReviewControls, fortifiedPlatform } = require('../tools/build-review.cjs');
 const { Controller } = require('../minigame/js/controller');
 const { Renderer } = require('../minigame/js/renderer');
 
@@ -30,7 +30,9 @@ function hits(p) {
   const context = new Proxy({}, { get: () => () => {} });
   const renderer = new Renderer({ getContext: () => context }, p.api, p);
   renderer.ready = true;
-  renderer.render(new Controller(p));
+  const controller=new Controller(p);
+  controller.action('introSkip');
+  renderer.render(controller);
   return renderer.hits.map(item => item.id);
 }
 
@@ -49,4 +51,12 @@ test('REVIEW-001: local test build retains debug controls; review build hides th
     assert.equal(reviewHits.includes('levels'), false, version);
     assert.equal(reviewHits.includes('restart'), false, version);
   }
+});
+
+test('REVIEW-002: only the sharing addition can extend a verified fortified base',()=>{
+  const current=source.replace(/\r\n/g,'\n'),method=current.match(/\n  enableSharing\(\) \{([\s\S]*?)\n  \}\n(?=  read\(\))/);
+  assert.ok(method);const base=current.replace(method[0],'\n'),map={sourcesContent:[base]};
+  const code=fortifiedPlatform(current,map,base),P=load(lockReviewControls(code)),p=platform(P,'develop'),calls=[];
+  p.api.showShareMenu=o=>calls.push(o.menus);p.enableSharing();assert.deepEqual(calls,[['shareAppMessage','shareTimeline']]);assert.equal(p.testMode,false);
+  assert.throws(()=>fortifiedPlatform(source.replace('this.saveError = false','this.saveError = true'),map,base),/does not match/);
 });

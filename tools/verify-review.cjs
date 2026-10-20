@@ -22,18 +22,22 @@ for (const envVersion of ['develop', 'trial', 'release']) {
   };
   const platform = new Platform(api);
   const controller = new Controller(platform);
+  controller.action('introSkip');
   const context = new Proxy({}, { get: () => () => {} });
   const renderer = new Renderer({ getContext: () => context }, api, platform);
+  const labels=[],drawText=renderer.text.bind(renderer);
+  renderer.text=(value,...args)=>{labels.push(String(value));drawText(value,...args);};
   renderer.ready = true;
   renderer.render(controller);
   const hidden = !renderer.hits.some(item => item.id === 'restart' || item.id === 'levels');
   assert.equal(platform.testMode, false, envVersion);
   assert.equal(hidden, true, envVersion);
+  assert.equal(labels.some(value=>value==='重开'||value==='选关'),false,envVersion);
   assert.equal(controller.game.config.level, 1, envVersion);
   const modal = controller.modal;
   controller.action('levels');
   controller.action('restart');
   assert.equal(controller.modal, modal, envVersion);
-  result.push({ envVersion, hidden, level: controller.game.config.level });
+  result.push({ envVersion, hidden, labelsHidden:true, actionsBlocked:true, level: controller.game.config.level });
 }
 console.log(JSON.stringify({ reviewProject: root, result }, null, 2));

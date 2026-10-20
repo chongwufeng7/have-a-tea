@@ -12,11 +12,12 @@ class Music {
   interact() { if (!this.unlocked) { this.unlocked = true; this.sync(); } }
   hide() { this.foreground = false; this.sync(); }
   show() { this.foreground = true; this.sync(); }
+  duck(active) { this.ducked=active;if(this.audio)this.audio.volume=active?.16:.45; }
   sync() {
     if (!this.source) return;
     if (!this.enabled || !this.foreground || !this.unlocked) { if (this.audio) this.audio.pause(); return; }
     if (!this.audio) {
-      try { this.audio = this.platform.api.createInnerAudioContext(); this.audio.loop = true; this.audio.volume = .45; this.audio.src = this.source; this.audio.onError(() => { this.error = true; }); }
+      try { this.audio = this.platform.api.createInnerAudioContext(); this.audio.loop = true; this.audio.volume = this.ducked?.16:.45; this.audio.src = this.source; this.audio.onError(() => { this.error = true; }); }
       catch (_) { this.error = true; return; }
     }
     this.audio.play();
